@@ -4,7 +4,7 @@ if len(sys.argv) < 1:
     print("Usage: fibonacci.py N")
     sys.exit(1)
 
-def fib_recursive(n):
+def fibik_recursive(n):
     if n <= 0:
         return 0
     elif n == 1:
